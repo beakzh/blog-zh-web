@@ -1,0 +1,12 @@
+.home {
+    display: flex;
+    height: 100%;
+    margin: 0 auto;
+    margin-top: 20px;
+    .home-left {
+        width: 720px;
+        height: 100%;
+        background: #fff;
+        margin-left: 10px;
+    }
+}
