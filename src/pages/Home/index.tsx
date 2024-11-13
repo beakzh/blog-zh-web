@@ -1,7 +1,6 @@
 import homeStyle from './index.module.scss'
-import { io } from 'socket.io-client'
-import { Button, Input } from 'antd'
-import { useState, useEffect } from 'react'
+import { Input } from 'antd'
+import { useState } from 'react'
 
 const Home = () => {
     // const socket = io('http://localhost:3001')
