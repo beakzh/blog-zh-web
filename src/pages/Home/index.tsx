@@ -1,5 +1,5 @@
 import homeStyle from './index.module.scss'
-import { Input } from 'antd'
+import { Input, Button } from 'antd'
 import { useState } from 'react'
 
 const Home = () => {
@@ -17,6 +17,7 @@ const Home = () => {
             <div className={homeStyle['home-left']}>
                 <Input value={message} onChange={(e) => setMessage(e.target.value)} placeholder="请输入" style={{ width: 300, margin: '10px 0' }} />
                 <br />
+                <Button type="primary" onClick={() => { console.log(message) }}>按钮</Button>
                 {/* <Button type="primary" onClick={() => { socket.emit('message', { message }) }}>按钮</Button> */}
             </div>
             <div>
